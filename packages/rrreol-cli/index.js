@@ -8,7 +8,7 @@ const semver = currentNodeVersion.split('.')
 const major = semver[0]
 
 if (major < 10) {
-  console.error(
+  throw new Error(
     chalk.red(
       'You are running Node ' +
       currentNodeVersion +
@@ -17,7 +17,6 @@ if (major < 10) {
       'Please update your version of Node.'
     )
   )
-  process.exit(1)
 }
 
 require('./src')

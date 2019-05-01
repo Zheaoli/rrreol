@@ -8598,6 +8598,13 @@ jest-serializer-html@^6.0.0:
   dependencies:
     diffable-html "^4.0.0"
 
+jest-serializer-html@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry.npm.taobao.org/jest-serializer-html/download/jest-serializer-html-7.0.0.tgz#9db553a69dea3498412a44c80d74a3770ff62936"
+  integrity sha1-nbVTpp3qNJhBKkTIDXSjdw/2KTY=
+  dependencies:
+    diffable-html "^4.0.0"
+
 jest-serializer@^24.4.0:
   version "24.4.0"
   resolved "http://registry.npm.taobao.org/jest-serializer/download/jest-serializer-24.4.0.tgz#f70c5918c8ea9235ccb1276d232e459080588db3"
@@ -8674,8 +8681,8 @@ jest-worker@^24.0.0, jest-worker@^24.6.0:
 
 jest@^24.7.1:
   version "24.7.1"
-  resolved "https://registry.yarnpkg.com/jest/-/jest-24.7.1.tgz#0d94331cf510c75893ee32f87d7321d5bf8f2501"
-  integrity sha512-AbvRar5r++izmqo5gdbAjTeA6uNRGoNRuj5vHB0OnDXo2DXWZJVuaObiGgtlvhKb+cWy2oYbQSfxv7Q7GjnAtA==
+  resolved "https://registry.npm.taobao.org/jest/download/jest-24.7.1.tgz#0d94331cf510c75893ee32f87d7321d5bf8f2501"
+  integrity sha1-DZQzHPUQx1iT7jL4fXMh1b+PJQE=
   dependencies:
     import-local "^2.0.0"
     jest-cli "^24.7.1"

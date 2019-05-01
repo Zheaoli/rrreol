@@ -30,6 +30,9 @@ const command = new program.Command(packageJson.name)
   })
   .parse(process.argv)
 
+if (programName == null) {
+  throw new Error()
+}
 programName = path.resolve(programName)
 
 debug(chalk.blueBright('programName: ') + programName)

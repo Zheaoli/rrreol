@@ -1,6 +1,11 @@
 language: node_js
 node_js: '10'
 
+os:
+  - windows
+  - osx
+  - linux
+
 cache:
   yarn: true
   directories:
