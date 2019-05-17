@@ -1,0 +1,13 @@
+steps:
+  - task: NodeTool@0
+    inputs:
+      versionSpec: $(node_version)
+
+  - script: yarn install
+    displayName: 'Install Dependency'
+
+  - script: yarn run lint
+    displayName: 'Lint Code'
+
+  - script: yarn test
+    displayName: 'Run Tests'
